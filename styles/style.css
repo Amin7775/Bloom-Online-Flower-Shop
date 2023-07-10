@@ -143,6 +143,28 @@
   text-decoration-thickness: 3px;
 }
 /*Section: featured-flowers End */
+/*Section: Delivery Section Start */
+.delivery-container {
+  margin-top: 130px;
+  height: 300px;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.delivery-content {
+  text-align: center;
+}
+
+.delivery-description {
+  margin-top: 20px;
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+}
+/*Section: Delivery Section End */
 
 /* Main Styles End*/
 
