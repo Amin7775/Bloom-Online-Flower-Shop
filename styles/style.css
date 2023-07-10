@@ -234,6 +234,12 @@
     width: 330px;
 }
 /*Section: Instagram - End */
+/*Section: Subscribe - Start */
+.subscribe-container{
+    height: 450px;
+    background: url('../Asset/Rectangle 9.png');
+}
+/*Section: Subscribe - End */
 
 /* Main Styles End*/
 
