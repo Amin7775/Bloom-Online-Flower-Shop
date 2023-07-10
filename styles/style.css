@@ -16,6 +16,10 @@
   margin: 0 240px;
 }
 
+.text-color-change{
+    color: #E55473;
+}
+
 /* Shared styles End*/
 
 /* Header Styles Start*/
@@ -71,7 +75,7 @@
 /* Header Styles End*/
 
 /* Main Styles Start*/
-/*Section: featured-flowers Start */
+/*Section: featured-flowers - Start */
 .featured-flowers-title {
   margin-top: 170px;
   font-size: 40px;
@@ -142,8 +146,8 @@
   text-decoration: underline;
   text-decoration-thickness: 3px;
 }
-/*Section: featured-flowers End */
-/*Section: Delivery Section Start */
+/*Section: featured-flowers- End */
+/*Section: Delivery Section - Start */
 .delivery-container {
   margin-top: 130px;
   height: 300px;
@@ -152,6 +156,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 130px;
 }
 
 .delivery-content {
@@ -164,7 +169,41 @@
   font-size: 24px;
   font-weight: 600;
 }
-/*Section: Delivery Section End */
+/*Section: Delivery Section - End */
+/*Section: Hot Deals - Start */
+.deals-container {
+  height: 600px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.deal-contents{
+    /* margin-left: 430px; */
+    margin-right: 10vw;
+}
+
+.deal-title{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.deal-description{
+    font-size: 18px;
+    width: 580px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.deal-btn{
+    margin-left: 35%;
+}
+
+/*Section: Hot Deals Section - End */
 
 /* Main Styles End*/
 
