@@ -37,6 +37,11 @@
     border:2px solid #e55473;
   }
 
+
+  .hr-style{
+    color: aliceblue;
+    width: 300px;
+  }
 /* Shared styles End*/
 
 /* Header Styles Start*/
@@ -299,5 +304,26 @@ border-radius: 8px;
 .footer-title{
     font-size: 48px;
     font-weight: 800;
+    padding: 10px;
+}
+
+.footer-description-1{
+    margin-top: 5px;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer-description-2{
+    width: 625px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.copyright{
+    color: #FFFFFF66;
 }
 /* Footer Styles End*/
