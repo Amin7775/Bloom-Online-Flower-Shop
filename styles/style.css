@@ -1,0 +1,75 @@
+/* Shared styles Start*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+.primary-title-color {
+  color: #272727;
+}
+
+.primary-description-color {
+  color: rgba(39, 39, 39, 0.6);
+}
+
+/* Shared styles End*/
+
+/* Header Styles Start*/
+.header {
+  height: 850px;
+  background: rgba(229, 84, 115, 0.1);
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-photo {
+  height: 800px;
+  margin-top: 50px;
+}
+
+.header-informations {
+  margin-left: 240px;
+}
+
+.header-title {
+  width: 710px;
+  font-size: 80px;
+  font-weight: 800;
+}
+
+.header-description {
+  width: 630px;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 30px 0;
+}
+
+.btn {
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 40px;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  font-weight: 700;
+  border: 0px;
+}
+
+.btn:hover {
+  font-size: 22px;
+  background-color: black;
+}
+
+/* Header Styles End*/
+
+/* Main Styles Start*/
+
+/* Main Styles End*/
+
+/* Footer Styles Start*/
+
+/* Footer Styles End*/
