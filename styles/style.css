@@ -41,16 +41,74 @@
   .hr-style{
     color: aliceblue;
     width: 300px;
+    height: 2px;
+    background-color: aliceblue;
   }
 /* Shared styles End*/
 
 /* Header Styles Start*/
 .header {
-  height: 850px;
-  background: rgba(229, 84, 115, 0.1);
+  height: 920px;
+  
 }
 
+/* Navbar Styles Start */
+.navbar{
+    height: 65px;
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-title-container{
+  width: 300px;
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.nav-title{
+  font-size: 34px;
+  font-weight: 800;
+  padding: 2px;
+  width: 105px;
+  margin: 0 auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+.navbar-hr-style{
+  width: 150px;
+  margin: 0 auto;
+  height: 2px;
+  background-color: aliceblue;
+}
+
+.nav-menu{
+  display: flex;
+  
+}
+
+.nav-menu-list{
+  list-style: none;
+  padding: 20px 27px;
+  font-size: 21px;
+  cursor: pointer;
+}
+
+.nav-menu-list:hover{
+  background-color: #e55473;
+  font-weight: 700;
+}
+/* Navbar Styles End */
+
+
 .header-content {
+    height: 850px;
+    background: rgba(229, 84, 115, 0.1);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -83,7 +141,7 @@
 /* Main Styles Start*/
 /*Section: featured-flowers - Start */
 .featured-flowers-title {
-  margin-top: 170px;
+  margin-top: 125px;
   font-size: 40px;
   font-weight: 800;
   text-align: center;
@@ -98,9 +156,10 @@
 }
 
 .featured-flowers-container {
-  margin-top: 50px;
+  margin-top: 75px;
   display: flex;
   justify-content: space-evenly;
+  
 }
 
 .featured-flower-content-1 {
@@ -155,7 +214,7 @@
 /*Section: featured-flowers- End */
 /*Section: Delivery - Start */
 .delivery-container {
-  margin-top: 130px;
+  margin-top: 190px;
   height: 300px;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
@@ -304,7 +363,7 @@ border-radius: 8px;
 .footer-title{
     font-size: 48px;
     font-weight: 800;
-    padding: 10px;
+    padding: 8px;
 }
 
 .footer-description-1{
